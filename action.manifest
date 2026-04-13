@@ -1,0 +1,14 @@
+{
+  "version": "1.5.0",
+  "anchor": "de2062",
+  "signal": "ACTION_GATE",
+  "description": "Canonical registry of valid dispatchable action types.",
+  "actions": [
+    { "type": "WRITE", "requiresOrigin": true, "requiresPayload": true, "gated": true },
+    { "type": "QUERY", "requiresOrigin": false, "requiresPayload": false, "gated": false },
+    { "type": "SEAL", "requiresOrigin": true, "requiresPayload": false, "gated": true },
+    { "type": "SIGNAL", "requiresOrigin": true, "requiresPayload": true, "gated": true },
+    { "type": "HALT", "requiresOrigin": true, "requiresPayload": true, "gated": true },
+    { "type": "ATTEST", "requiresOrigin": true, "requiresPayload": false, "gated": true }
+  ]
+}

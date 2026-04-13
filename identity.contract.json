@@ -1,0 +1,12 @@
+{
+  "petal": "Action-Gold",
+  "signal": "ACTION_GATE",
+  "anchor": "de2062",
+  "version": "1.5.0",
+  "cluster": "Riverbraid-v1.5.0-Genesis",
+  "status": "STATIONARY",
+  "invariant": "INTENT_GATED",
+  "allowsDate": false,
+  "allowsRandom": false,
+  "description": "Deterministic intent validation and dispatch gate."
+}

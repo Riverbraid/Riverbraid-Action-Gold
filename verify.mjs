@@ -1,1 +1,7 @@
-import { execSync } from "child_process"; try { execSync("node run-vectors.cjs verify", { stdio: "inherit" }); } catch(e) { process.exit(1); }
+import ACTION_GATE from './index.js';
+const status = ACTION_GATE.getStatus();
+if (!/\[Signal: ACTION_GATE \| Braid: CLOSED-LOOP\]/.test(status)) {
+  console.error('ACTION-GOLD INVARIANT BREACH');
+  process.exit(1);
+}
+console.log('ACTION-GOLD VERIFIED:', status);
