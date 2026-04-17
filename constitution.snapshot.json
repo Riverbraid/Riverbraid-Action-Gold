@@ -1,8 +1,46 @@
 {
-  "SPEC.md": "c63e0dc78f66aaf33cb2ef0473a9447af98c73ece3b1abf8bcccae9f9913c95b",
-  "constitution.snapshot.json": "4acdb4223ecd76ea918c04f51cf166b40e2497acb7852dc33b26e28a0c7fb742",
-  "constitution.threshold.json": "6bd1b1e2adfadaa56923ffadfe2fa3a68071b69461ba783a1d718db97e1c5312",
-  "current_state.tmp": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "package.json": "48199e38bd917f8d364774c1f8938dd4561df40a071743063a46521e8fca5b22",
-  "run-vectors.cjs": "1acb0fc35fd2c22c1c07b3f33564edc529a3a9b725f06988721316c2cad12806"
+  "version": "1.5.0",
+  "merkle_root": "081686035f69ab6923ddebaa859b491075f607430ffe964c7ea8395aa8da5072",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "daf0f369b25356b2217989eebc4dad24f6681376a07e1a6ac2a8799a13b02bc6",
+      "leaf": "60c255621a965ddd35fecaccd4cf07b877e73287f6598867373259d17cbf8a8f"
+    },
+    {
+      "path": ".stationary-seal",
+      "sha256": "df48de2fb69bb42f3fe91e56141328d2bcf6930ee35bdb15d9d3ebe6f8d5b04e",
+      "leaf": "d4e6e8c854bea2882873c14113aad59b837bbf4cc3e86b2e2302a4b1c79c7056"
+    },
+    {
+      "path": "constitution.threshold.json",
+      "sha256": "6bd1b1e2adfadaa56923ffadfe2fa3a68071b69461ba783a1d718db97e1c5312",
+      "leaf": "5e958c9932578162ea25063bb0bd99e4d8f8173249953859b6ef3951cfa557de"
+    },
+    {
+      "path": "package.json",
+      "sha256": "be66d210b8ff57265d9ed6d1c71859b53d2ded37fd3fbcffc14f56f989c7d661",
+      "leaf": "d966424c687f4ca13ea4d897374b1f6279b23e87138d5190f056d6f3876d0f5c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f20d04d5eeb6dd6942ab55ae9f354e3674c90d4abe173244ca47282a3fa3f940",
+      "leaf": "cc79753a59081a33f79619f20270e9de50fe4a13a11d5014cbf6c841bdcbb234"
+    },
+    {
+      "path": "run-vectors.cjs",
+      "sha256": "dacac55fa4846267c962d0e5a46d2ba3d81a40de7cd544cd25751407e788c818",
+      "leaf": "e448a8e65fd67fa0cbdbd24c67ce708edbf83bbd817e1ce9a5912f874e6e0458"
+    },
+    {
+      "path": "SPEC.md",
+      "sha256": "15fb1806b9500fa694794d90209de768c07ce2a90d504d45b85f9524a176f634",
+      "leaf": "d8a47c3feaba4f9361774f582c1d0b446dbb69006da9ed17fe2a39ba84c61038"
+    },
+    {
+      "path": "TRUTH.SEAL",
+      "sha256": "12f692d52edecffe3db1fa00919b8c40482b9594a56262e6e869d775768bc8ef",
+      "leaf": "df2300b734752dc71d61ec6287635e04f135031c156f81755f7c79b5bf696757"
+    }
+  ]
 }
